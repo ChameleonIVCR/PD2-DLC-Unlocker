@@ -1,0 +1,27 @@
+{
+    "name": "DLC Unlocker",
+    "description": "Unlocks all the game DLCs",
+    "author": "Chame",
+	"image" : "logo.png",
+    "version": "1.0",
+    "hooks": [
+        {
+            "hook_id": "lib/managers/dlcmanager",
+            "script_path": "mod/DLC_Unlocker.lua"
+        }
+    ]
+	"persist_scripts" : [
+		{
+			"global" : "DLC_Unlocker",
+			"script_path" : "mod/DLC_Unlocker.lua"
+		}
+	]
+    "updates" : [
+		{
+			"identifier" : "DLC-Unlocker",
+			"host" : {
+				"meta" : "https://github.com/ChameleonIVCR/PD2-DLC-Unlocker/raw/master/meta.json"
+			}
+		}
+	]
+}
