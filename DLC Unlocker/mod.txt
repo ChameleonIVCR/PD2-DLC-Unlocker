@@ -20,7 +20,7 @@
 		{
 			"identifier" : "DLC-Unlocker",
 			"host" : {
-				"meta" : "https://github.com/ChameleonIVCR/PD2-DLC-Unlocker/raw/master/meta.json"
+				"meta" : "https://raw.githubusercontent.com/ChameleonIVCR/PD2-DLC-Unlocker/main/meta.json"
 			}
 		}
 	]
